@@ -8,6 +8,10 @@ doc = Nokogiri::HTML(html)
 header = doc.css('.headline-26OIBN')
 puts header.text.strip
 
+
+
+
+
 online_course = doc.css('.text-4GLMvr.title-oE5vT4')
 online_course.each do |course|
   puts course.text.strip
